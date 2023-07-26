@@ -89,7 +89,7 @@ public class CallActivity extends MeshengerActivity implements ServiceConnection
     }
 
     private void activeActionInit(){
-        // ----------------------------------------呼出电话----------------------------------------AAAAAAAAAA
+        // ----------------------------------------呼出电话----------------------------------------
         callEventType = CallEvent.Type.OUTGOING_UNKNOWN;
         // 创建ServiceConnection对象，绑定到MainService
         connection = new ServiceConnection() {
